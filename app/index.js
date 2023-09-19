@@ -7,6 +7,7 @@ import {
   Popularjobs,
   ScreenHeaderBtn,
   Welcome,
+  Nearbyjobs
 } from "../components";
 const Home = () => {
   const router = useRouter();
@@ -34,7 +35,7 @@ const Home = () => {
         >
           <Welcome />
           <Popularjobs />
-          {/* <Popularjobs/> */}
+          <Nearbyjobs/>
         </View>
       </ScrollView>
     </SafeAreaView>
